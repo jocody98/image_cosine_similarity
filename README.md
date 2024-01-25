@@ -5,3 +5,8 @@ I came across information about the Re-identification (Re-ID) model used in the 
 
 The theory seemed straightforward, so I decided to try it out myself. I took the feature extractor part of the ResNet18 model and used it to measure the similarity between two images. The output vector not only represents the degree of similarity between the images but also reflects the model's ability to discriminate between different types of images based on its training. As a result, I was able to confirm that images of the same type yield higher similarity scores.
 
+![tmg1](test_imgs/cropped_image_1.jpg)  ![tmg2](test_imgs/cropped_image_2.jpg)
+cosine similarity : 0.79
+
+![tmg4](test_imgs/cropped_image_4.jpg)  ![tmg5](test_imgs/cropped_image_5.jpg)
+cosine similarity : 0.46
